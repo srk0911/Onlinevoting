@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="voteproj.css">
+<style>
+.voteform {
+	width: 500px;
+	margin: 150px auto;
+	padding: 10px 20px 30px;
+	background-color: rgba(0, 0, 0, .3);
+	color: white;
+	font-size: 15px;
+	border-radius: 15px;
+}
+
+body {
+	background-image:
+		url(https://media.istockphoto.com/photos/texture-of-old-navy-blue-paper-closeup-picture-id1278734823?k=20&m=1278734823&s=612x612&w=0&h=irBG-ChGNNGL7FWGtp40UH6MxXLH50zr6Nchl97apqY=);
+	background-size: cover;
+}
+
+h1 {
+	text-align: center;
+	color: darkgoldenrod;
+	font-size: 2cm;
+}
+</style>
+</head>
+<body>
+	<div>
+		<form action="voteonlin3" method="post" class="voteform">
+			<div>
+				<label for="Aadharnum" class="mylabel">Please enter Aadhar
+					number</label> <input type="number" name="Aadharnum" required
+					class="myinput">
+			</div>
+			<div>
+				<label class="mylabel">name</label> <input type="text" name="uname">
+
+			</div>
+			<div>
+				<label class="mylabel" name="selectyourstate">Select your
+					state</label> <select name="selectyourstate">
+					<option value="Andhra" name="selectyourstate">Andhra
+						pradesh</option>
+					<option value="Arunachal pradesh" name="selectyourstate">Arunachal
+						pradesh</option>
+					<option value="Assam" name="selectyourstate">Assam</option>
+					<option value="Bihar" name="selectyourstate">Bihar</option>
+					<option value="Chattisgarh" name="selectyourstate">Chattisgarh</option>
+					<option value="Goa" name="selectyourstate">Goa</option>
+					<option value="Gujarat" name="selectyourstate">Gujarat</option>
+					<option value="Haryana" name="selectyourstate">Haryana</option>
+					<option value="maharastara" name="selectyourstate">Maharastara</option>
+					<option value="manipur" name="selectyourstate">manipur</option>
+					<option value="punjab" name="selectyourstate">punjab</option>
+					<option value="sikkim" name="selectyourstate" m>Sikkim</option>
+					<option value="Tamilnadu" name="selectyourstate">Tamilnadu</option>
+					<option value="uttar pradesh" name="selectyourstate">uttarpradesh</option>
+				</select>
+
+			</div>
+			<div>
+				<label class="mylabel" name="selectyourdistrict">Select your
+					district</label> <input type="text" name="selectyourdistrict">
+				<!-- <select name="selectyourdistrict" >
+                     <option value="kanchipuram" name="selectyourdistrict">kanchipuram</option>
+                     <option value="Chennai" name="selectyourdistrict">Chennai</option>
+                     <option value="vellore" name="selectyourdistrict">vellore</option>
+                     <option value="chengalpattu" name="selectyourdistrict">chengalpattu</option>
+                     <option value="vilupuram" name="selectyourdistrict">vilupuram</option>
+                     <option value="cuddalore" name="selectyourdistrict">cuddalore</option>
+                     <option value="Mayiladuthurai" name="selectyourdistrict">Mayiladuthurai</option>
+                     <option value="thanjavur" name="selectyourdistrict">Thanjavur</option>
+                     <option value="Trichy" name="selectyourdistrict">trichy</option>
+                     <option value="Dhindukal" name="selectyourdistrict">Dhindukal</option>
+                     <option value="Virudhunagar" name="selectyourdistrict">Virudhunagar</option>
+                     <option value="sivaganagai" name="selectyourdistrict">Sikkim</option>
+                     <option value="Thirunelveli" name="selectyourdistrict">Thinalveli</option>
+                     <option value="coimbatore" name="selectyourdistrict">Coimbatore</option>
+                     <option value="Madhurai" name="selectyourdistrict">Madhurai</option>
+                     <option value="Krishnagiri" name="selectyourdistrict">Krishnagiri</option>
+                     <option value="kanniyarkumari" name="selectyourdistrict">Kanniyakumari</option>
+                </select> -->
+			</div>
+			<div>
+				<label for="voteidnum" class="mylabel">Please enter your
+					voter id</label> <input type="text" name="voteridnum" required
+					class="myinput">
+			</div>
+			<!-- <div>
+				<label class="mylabel">Your Photo</label><br> <input
+					type="file" name="Your_photo">
+			</div> -->
+			<br>
+			<div req>
+				<p>
+					<label class="mylabel">select your Party </label><br> 
+					<input type="radio" name="selectyourparty" checked	value="BHARATHIAY JANATHA PARTY" class="myinput">BHARATHIAY
+					JANATHA PARTY<br> <input type="radio" name="selectyourparty"value="CONGRESS" class="myinput">CONGRESS<br> 
+				<input type="radio" name="selectyourparty" checked value="THIRUNAMUL CONGRESS" class="myinput">BHARATHIAY JANATHA KATCHI<br> <input
+						type="radio" name="selectyourparty" value="AAM AATHMI KATCHI" class="myinput">AAM AATHMI KATCHI<br> 
+				<input type="radio" name="selectyourparty" value="SIVASENA KATCHI" class="myinput">SIVASENA
+					KATCHI<br> <input type="radio" name="selectyourparty" value="NOTA"class="myinput">NOTA<br>
+				</p>
+			</div>
+
+			<div>
+
+				<input type="submit" value="submit">
+
+			</div>
+
+
+		</form>
+	</div>
+</body>
+</html>
